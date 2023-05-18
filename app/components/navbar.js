@@ -10,29 +10,29 @@ export default function Navbar() {
   return (
     <>
       <div className={lato.className}>
-        <div class="flex">
-          <div class="flex">
-            <p class="m-2">Guitars</p>
-            <p class="m-2">Pedals and Amplifiers</p>
-            <p class="m-2">Keyboards and Synths</p>
-            <p class="m-2">Recording Gear</p>
-            <p class="m-2">Drums</p>
-            <p class="m-2">DJ and Audio Gear</p>
-            <p class="m-2">More Categories</p>
+        <div className="flex">
+          <div className="flex">
+            <p className="m-2">Guitars</p>
+            <p className="m-2">Pedals and Amplifiers</p>
+            <p className="m-2">Keyboards and Synths</p>
+            <p className="m-2">Recording Gear</p>
+            <p className="m-2">Drums</p>
+            <p className="m-2">DJ and Audio Gear</p>
+            <p className="m-2">More Categories</p>
           </div>
-          <div class="flex mx-2">
-            <p class="m-2">Brands</p>
-            <div class="flex">
-              <p class="m-2">News</p>
+          <div className="flex mx-2">
+            <p className="m-2">Brands</p>
+            <div className="flex">
+              <p className="m-2">News</p>
               <GoTriangleDown />
             </div>
-            <div class="flex">
-              <p class="m-2">Explore</p>
+            <div className="flex">
+              <p className="m-2">Explore</p>
               <GoTriangleDown />
             </div>{" "}
-            <p class="m-2">Shops</p>
-            <p class="m-2">Reverb Gives</p>
-            <p class="m-2">Help Center</p>
+            <p className="m-2">Shops</p>
+            <p className="m-2">Reverb Gives</p>
+            <p className="m-2">Help Center</p>
           </div>
         </div>
       </div>

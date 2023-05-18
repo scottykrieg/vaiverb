@@ -8,7 +8,7 @@ const courgette = Courgette({
 export default function Footer({ Component, pageProps }) {
   return (
     <div className={courgette.className}>
-      <div class="p-2">
+      <div className="p-2">
         <h1>VaiVerb Footer</h1>
       </div>{" "}
     </div>
