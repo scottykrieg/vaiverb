@@ -10,6 +10,7 @@ export default function Footer({ Component, pageProps }) {
     <div className={courgette.className}>
       <div className="p-2">
         <h1>VaiVerb Footer</h1>
+        <h6>Copyright 2023</h6>
       </div>{" "}
     </div>
   );
