@@ -1,5 +1,6 @@
 import { Courgette, Lato } from "next/font/google";
 import { SlBasket, SlHeart } from "react-icons/sl";
+import Link from "next/link";
 
 const courgette = Courgette({
   weight: "400",
@@ -16,7 +17,10 @@ export default function Header() {
     <div>
       <div className={courgette.className}>
         <div className="flex p-2 justify-around ">
-          <h1 className="text-6xl">VaiVerb</h1>{" "}
+          <Link href="/">
+            {" "}
+            <h1 className="text-6xl">VaiVerb</h1>{" "}
+          </Link>
           <div className={lato.className}>
             <input
               placeholder="Shop for used & new music gear..."

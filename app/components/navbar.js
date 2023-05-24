@@ -1,5 +1,6 @@
 import { Lato } from "next/font/google";
 import { GoTriangleDown } from "react-icons/go";
+import Link from "next/link";
 
 const lato = Lato({
   weight: "300",
@@ -12,7 +13,10 @@ export default function Navbar() {
       <div className={lato.className}>
         <div className="flex">
           <div className="flex">
-            <p className="m-2">Guitars</p>
+            <Link href="/">
+              {" "}
+              <p className="m-2">Guitars </p>
+            </Link>
             <p className="m-2">Pedals and Amplifiers</p>
             <p className="m-2">Keyboards and Synths</p>
             <p className="m-2">Recording Gear</p>
